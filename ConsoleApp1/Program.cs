@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 public class Program {
     public static async Task Main() {
-        string group = "group_3";
+        string group = "group_3";           //dsadsadsa
         string range = "";
         HttpClient client = new HttpClient();
         string page = await client.GetStringAsync("https://api.yasno.com.ua/api/v1/pages/home/schedule-turn-off-electricity");
